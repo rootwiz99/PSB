@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+.founders{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+    
+    }
+    .founder-1 img{
+      width:70%;
+      height: 200px;
+      
+    }
+    .founder-2 img{
+      width:70%;
+      height: 200px;
+
+    }
+    .founder-1{
+      border: 2px solid transparent;
+ 
+    }
+    .founder-2{
+      border: 2px solid transparent;
+    }
+
+    .ourFounders{
+      text-align: center;
+      color: antiquewhite;
+      font-size: 30px;
+      
+    }
+    .aboutContent{
+      text-align: justify;
+      color: antiquewhite;
+
+      margin: 10px 10px 10px
+    }
+
+    
+    
+
+    
+
+    

@@ -1,0 +1,43 @@
+.productCard{
+    border-radius: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.2s ease;
+}
+.productCard:hover{
+    transform: scale(0.8);
+    
+}
+.ant-card .ant-card-body{
+    padding:5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0%;
+}
+.ant-card{
+    background-color: rgb(0, 0, 0);
+}
+.productText{
+    text-align: center;
+    
+}
+.ant-card-bordered{
+    border: 0;
+}
+.ant-card-bordered .ant-card-cover{
+    margin-top: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+
+}
+.ant-card .ant-card-cover img{
+    border-radius: 0;
+    height: 20vh;
+
+}
+.ant-card .ant-card-meta-title{
+    color:antiquewhite;
+}
+.ant-card .ant-card-meta-description {
+    color: antiquewhite;
+}

@@ -1,0 +1,16 @@
+.productCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.heading{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+.subHeading{
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+}

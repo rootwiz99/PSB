@@ -1,0 +1,24 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to fit your use case */
+    background-color: #00000049; /* Adjust the background color as needed */
+  }
+  
+  .loader img {
+    /* Customize the size and styling of the logo or animation */
+    width: 100px;
+    height: 100px;
+    animation:rotate 5s linear infinite;
+  }
+
+  @keyframes rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform :rotate(360deg);
+    }
+  }

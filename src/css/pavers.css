@@ -1,0 +1,10 @@
+.heading{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+.paversCard{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

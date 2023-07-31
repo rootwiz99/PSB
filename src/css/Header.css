@@ -1,0 +1,136 @@
+.logo{
+    font-size: 35px !important;
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    text-shadow: 0 0 10px #ffffff, 0 0 5px #000000;
+    animation: shine 2s infinite;
+}
+@keyframes shine {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+.button{
+  display: flex;
+  align-items: center;
+  color: #faebd7;
+  
+}
+.header{
+  display:flex;
+
+}
+.span{
+  padding-left: 10px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+  height: 75px;
+  background-color: #535d6d;
+  top:0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  
+}
+.nav-links-pc{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 100%;
+}
+.Home,
+.Projects,
+.Products,
+.About,
+.Contact{
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 20px;
+  padding:10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+
+}
+
+
+@media (min-width: 1000px) {
+  .button {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-links-pc {
+    display:none;
+    
+    
+  }
+
+  .nav-links-phone{
+    flex-direction: column;
+    background-color: #535d6d;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    position:fixed;
+    left : 0;
+    right: 0;
+    top: 75px;
+    margin:0%;
+    padding: 0%;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 999;
+    opacity: 1;
+    transform: translateY(-100px);
+    
+    
+  
+  }
+  .nav-links-phone.open{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .li{
+    margin-left: 10px;
+  }
+  .li:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .Home,
+  .Projects,
+  .Products,
+  .About,
+  .Contact{
+    color: antiquewhite;
+    text-align: center;
+    width:100%;
+    transition: all 0.5s ease;
+    margin:0%;
+    padding: 0%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+  
+  }
+
+  .span{
+    padding-left: 10px;
+  }
+  
+}

@@ -1,0 +1,13 @@
+.projectHeading{
+    text-align: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 30px;
+}
+.projectImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
