@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../css/Header.css";
 import { Squash as Hamburger } from "hamburger-react";
 
 export const Header = ({ handleScrollToSection }) => {
   const [isOpen, setOpen] = useState(false);
 
-  const closeMenu = () => {
-    setOpen(false);
-  };
   // const handleScrollToSection = (sectionId) => {
   //   const section = document.getElementById(sectionId);
   //   if (section) {
@@ -17,21 +14,7 @@ export const Header = ({ handleScrollToSection }) => {
   //   }
   //   closeMenu(); // Close the mobile menu after clicking a navigation link
   // };
-  const [scrollY, setScrollY] = useState(0);
 
-  const handleScroll = () => {
-    setScrollY(window.scrollY);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const angle = scrollY * 0.3;
   return (
     <div className="header">
       <nav className="navbar">

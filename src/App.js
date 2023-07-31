@@ -1,7 +1,7 @@
 import "./css/App.css";
 import { useState, useEffect } from "react";
 import { Header } from "./components/Header";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./menu/Home";
 import About from "./menu/About";
 import Projects from "./menu/Projects";
@@ -19,7 +19,7 @@ function App() {
   const [scrollY, setScrollY] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
-
+  const pointer = scrollY * 0.05;
   const loadingTime = 1000;
   const timer = setTimeout(() => {
     setLoading(false);
@@ -36,9 +36,6 @@ function App() {
       clearTimeout(timer);
     };
   }, [timer]);
-
-  const angle = scrollY * 0.1;
-  const angle2 = 1 - scrollY * 0.15;
 
   const handleCallButton = () => {
     const phoneNumber = "8888865737"; // Replace with the specific phone number you want to dial
@@ -68,7 +65,7 @@ function App() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div style={{ backgroundColor: "black" }} className="content">
+        <div style={{ backgroundColor: `#456${pointer}` }} className="content">
           <Header className="header" />
           <Router>
             <Home />
