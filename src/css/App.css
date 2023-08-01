@@ -6,3 +6,12 @@ body{
   font-family: 'Roboto', sans-serif;
   
 }
+.floatButton{
+  position: fixed;
+  bottom:20px;
+  right: 30px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+
+}

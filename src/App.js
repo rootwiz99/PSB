@@ -5,11 +5,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Everything from "./components/Everything";
 import Footer from "./components/Footer";
 import Pavers from "./productsItemsPage/Pavers";
-import { FloatButton } from "antd";
 import { Modal } from "antd";
-import { PhoneTwoTone } from "@ant-design/icons";
 import Loader from "./components/Loader";
 import { Route, Routes } from "react-router-dom";
+import whatsappimage from "./images/clipart698324.png";
+import callimage from "./images/phone-ringing.png";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -58,13 +58,14 @@ function App() {
       ) : (
         <div style={{ backgroundColor: "black" }} className="content">
           <Header className="header" />
+
           <Router>
             <Routes>
               <Route path="/" element={<Everything />} />
               <Route path="/pavers" element={<Pavers />} />
             </Routes>
           </Router>
-          <FloatButton
+          {/* <FloatButton
             shape="circle"
             type="primary"
             style={{
@@ -72,7 +73,8 @@ function App() {
             }}
             onClick={handleCallButton}
             icon={<PhoneTwoTone />}
-          />
+          /> */}
+
           <Modal
             title="Alert"
             open={showModal}
@@ -81,7 +83,19 @@ function App() {
           >
             <p>{modalMessage}</p>
           </Modal>
+          <div className="floatButton">
+            <a href="https://wa.me/9370468603?text=Hi! PSB Industries ">
+              <img
+                style={{ height: "35px", paddingBottom: "15px" }}
+                src={whatsappimage}
+                alt="wapp"
+              />
+            </a>
 
+            <div onClick={handleCallButton}>
+              <img style={{ height: "35px" }} src={callimage} alt="call" />
+            </div>
+          </div>
           <Footer className="footer" />
         </div>
       )}
