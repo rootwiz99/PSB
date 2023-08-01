@@ -86,7 +86,7 @@ function App() {
           <div className="floatButton">
             <a href="https://wa.me/9370468603?text=Hi! PSB Industries ">
               <img
-                style={{ height: "35px", paddingBottom: "15px" }}
+                style={{ height: "35px", marginBottom: "15px" }}
                 src={whatsappimage}
                 alt="wapp"
               />
