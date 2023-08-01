@@ -25,7 +25,7 @@
   justify-content: space-around;
   align-items: center ;
   height: 75px;
-  background-color: #535d6d;
+  background-color: #000000;
   top:0;
   left: 0;
   right: 0;
@@ -69,8 +69,9 @@
 
   .nav-links-phone{
     flex-direction: column;
-    background-color: #535d6d;
-    justify-content: center;
+    background-color: #00000061;
+    backdrop-filter: blur(10px);
+    
     display: flex;
     list-style: none;
     position:fixed;
@@ -83,6 +84,7 @@
     z-index: 999;
     opacity: 1;
     transform: translateY(-100px);
+    height: 100vh;
     
     
   

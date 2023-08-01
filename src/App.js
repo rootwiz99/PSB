@@ -2,17 +2,14 @@ import "./css/App.css";
 import { useState, useEffect } from "react";
 import { Header } from "./components/Header";
 import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./menu/Home";
-import About from "./menu/About";
-import Projects from "./menu/Projects";
-import Products from "./menu/Products";
-import Contact from "./menu/Contact";
+import Everything from "./components/Everything";
 import Footer from "./components/Footer";
 import Pavers from "./productsItemsPage/Pavers";
 import { FloatButton } from "antd";
 import { Modal } from "antd";
 import { PhoneTwoTone } from "@ant-design/icons";
 import Loader from "./components/Loader";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -62,12 +59,10 @@ function App() {
         <div style={{ backgroundColor: "black" }} className="content">
           <Header className="header" />
           <Router>
-            <Home />
-            <Contact />
-            <Projects />
-            <Products />
-            <Pavers />
-            <About />
+            <Routes>
+              <Route path="/" element={<Everything />} />
+              <Route path="/pavers" element={<Pavers />} />
+            </Routes>
           </Router>
           <FloatButton
             shape="circle"
