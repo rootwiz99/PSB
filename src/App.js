@@ -16,29 +16,23 @@ import Loader from "./components/Loader";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
-  const [scrollY, setScrollY] = useState(0);
+
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
-  const pointer = scrollY * 0.05;
-  const loadingTime = 1000;
+
+  const loadingTime = 1300;
   const timer = setTimeout(() => {
     setLoading(false);
   }, loadingTime);
 
-  const handleScroll = () => {
-    setScrollY(window.scrollY);
-  };
-
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
       clearTimeout(timer);
     };
   }, [timer]);
 
   const handleCallButton = () => {
-    const phoneNumber = "8888865737"; // Replace with the specific phone number you want to dial
+    const phoneNumber = "8888865737";
 
     if (
       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -65,7 +59,7 @@ function App() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div style={{ backgroundColor: `#456${pointer}` }} className="content">
+        <div style={{ backgroundColor: "black" }} className="content">
           <Header className="header" />
           <Router>
             <Home />

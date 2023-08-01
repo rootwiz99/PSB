@@ -14,28 +14,29 @@ body {
   padding: 0;
 }
 
-.mySwiper {
+.mySwiperCarousal {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-.mySwiper .swiper-slide {
+.mySwiperCarousal .swiper-slide {
   background-position: center;
   background-size: cover;
   width: auto;
   height: auto;
 }
 
-.mySwiper .swiper-slide img {
+.mySwiperCarousal .swiper-slide img {
   display: block;
   width: 100%;
+  height: 90%;
+  object-fit: cover;
 }
-
-.swiper-slide img {
+.mySwiperSlider .swiper-slide img{
   display: block;
-  width: auto;
-  height: 75%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 

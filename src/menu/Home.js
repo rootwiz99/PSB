@@ -17,7 +17,7 @@ const Home = () => {
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={"4"}
+          slidesPerView={"3"}
           loop={true}
           coverflowEffect={{
             rotate: 50,
@@ -28,7 +28,7 @@ const Home = () => {
           }}
           pagination={true}
           modules={[EffectCoverflow, Pagination]}
-          className="mySwiper"
+          className="mySwiperCarousal"
         >
           <SwiperSlide>
             <img
@@ -108,7 +108,7 @@ const Home = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
+          className="mySwiperSlider"
           loop={true}
           style={{ paddingBottom: "0px" }}
         >

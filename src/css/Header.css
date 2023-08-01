@@ -2,21 +2,9 @@
     font-size: 35px !important;
     position: relative;
     display: inline-block;
-    color: #000000;
-    text-shadow: 0 0 10px #ffffff, 0 0 5px #000000;
-    animation: shine 2s infinite;
+    color: antiquewhite;
 }
-@keyframes shine {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
+
 
 
 .button{

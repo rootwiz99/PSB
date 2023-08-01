@@ -15,10 +15,10 @@ const ImageCard = (props) => {
     <Col xs={12} md={6} lg={4}>
       <motion.div
         ref={ref}
-        initial={{ opacity: 1, y: 200, x: 0 }}
+        initial={{ opacity: 1, y: 100, x: 0 }}
         animate={{
           opacity: inView ? 1 : 1,
-          y: inView ? 0 : 200,
+          y: inView ? 0 : 100,
         }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
