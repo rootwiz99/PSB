@@ -71,7 +71,7 @@
     flex-direction: column;
     background-color: #00000061;
     backdrop-filter: blur(10px);
-    
+    justify-content: center;
     display: flex;
     list-style: none;
     position:fixed;
