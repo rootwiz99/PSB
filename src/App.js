@@ -84,17 +84,20 @@ function App() {
             <p>{modalMessage}</p>
           </Modal>
           <div className="floatButton">
-            <a href="https://wa.me/9370468603?text=Hi! PSB Industries ">
+            <div className="callButton" onClick={handleCallButton}>
               <img
-                style={{ height: "35px", marginBottom: "15px" }}
-                src={whatsappimage}
-                alt="wapp"
+                style={{
+                  height: "25px",
+                  marginLeft: "5px",
+                  marginBottom: "15px",
+                }}
+                src={callimage}
+                alt="call"
               />
-            </a>
-
-            <div onClick={handleCallButton}>
-              <img style={{ height: "35px" }} src={callimage} alt="call" />
             </div>
+            <a href="https://wa.me/9370468603?text=Hi! PSB Industries ">
+              <img style={{ height: "35px" }} src={whatsappimage} alt="wapp" />
+            </a>
           </div>
           <Footer className="footer" />
         </div>
