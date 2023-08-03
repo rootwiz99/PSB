@@ -8,12 +8,11 @@ const ImageCardProject = (props) => {
   return (
     <Col xs={24} md={24} lg={12}>
       <Card
-      
-        className="productCard"
+        className="projectCard"
         cover={
           <Image
             className="proImg"
-            style={{ height: "100%", padding: "30px" ,borderRadius:"50px" }}
+            style={{ height: "100%", padding: "30px", borderRadius: "50px" }}
             src={props.imageUrl}
             alt="err"
           />
