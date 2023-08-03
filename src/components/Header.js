@@ -43,7 +43,7 @@ export const Header = () => {
               onClick={() => handleScrollToSection("Home")}
             >
               <i
-                class="fa-solid fa-house fa-sm"
+                className="fa-solid fa-house fa-sm"
                 style={{ color: "antiquewhite" }}
               />
               &nbsp;&nbsp;Home
@@ -65,7 +65,7 @@ export const Header = () => {
               onClick={() => handleScrollToSection("Products")}
             >
               <i
-                class="fa-solid fa-square fa-sm"
+                className="fa-solid fa-square fa-sm"
                 style={{ color: "antiquewhite" }}
               />
               &nbsp;&nbsp;Products
@@ -76,7 +76,7 @@ export const Header = () => {
               onClick={() => handleScrollToSection("About")}
             >
               <i
-                class="fa-solid fa-circle-info fa-sm"
+                className="fa-solid fa-circle-info fa-sm"
                 style={{ color: "antiquewhite" }}
               ></i>
               &nbsp;&nbsp;About
@@ -87,7 +87,7 @@ export const Header = () => {
               onClick={() => handleScrollToSection("Contact")}
             >
               <i
-                class="fa-solid fa-address-card fa-sm"
+                className="fa-solid fa-address-card fa-sm"
                 style={{ color: "antiquewhite" }}
               />
               &nbsp;&nbsp;Contact
@@ -97,7 +97,7 @@ export const Header = () => {
         <ul className="nav-links-pc">
           <li className="Home li" onClick={() => handleScrollToSection("Home")}>
             <i
-              class="fa-solid fa-house fa-sm"
+              className="fa-solid fa-house fa-sm"
               style={{ color: "antiquewhite" }}
             />
             &nbsp;&nbsp;Home
@@ -119,7 +119,7 @@ export const Header = () => {
             onClick={() => handleScrollToSection("Products")}
           >
             <i
-              class="fa-solid fa-square fa-sm"
+              className="fa-solid fa-square fa-sm"
               style={{ color: "antiquewhite" }}
             />
             &nbsp;&nbsp;Products
@@ -130,7 +130,7 @@ export const Header = () => {
             onClick={() => handleScrollToSection("About")}
           >
             <i
-              class="fa-solid fa-circle-info fa-sm"
+              className="fa-solid fa-circle-info fa-sm"
               style={{ color: "antiquewhite" }}
             ></i>
             &nbsp;&nbsp;About
@@ -143,7 +143,7 @@ export const Header = () => {
             }}
           >
             <i
-              class="fa-solid fa-address-card fa-sm"
+              className="fa-solid fa-address-card fa-sm"
               style={{ color: "antiquewhite" }}
             />
             &nbsp;&nbsp;Contact
