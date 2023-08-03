@@ -2,10 +2,19 @@ import React, { useState } from "react";
 import "../css/Header.css";
 import { Squash as Hamburger } from "hamburger-react";
 
-export const Header = ({ handleScrollToSection }) => {
+export const Header = () => {
   const [isOpen, setOpen] = useState(false);
 
-  // const handleScrollToSection = (sectionId) => {
+  const handleScrollToSection = (sectionId) => {
+    setOpen(false);
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offset = -75; // Adjust this value to control the offset above the section
+      const targetPosition =
+        section.getBoundingClientRect().top + window.scrollY + offset;
+      window.scrollTo({ top: targetPosition, behavior: "smooth" });
+    }
+  };
   //   const section = document.getElementById(sectionId);
   //   if (section) {
   //     const yOffset = -80; // Adjust the scroll offset if needed
@@ -129,7 +138,9 @@ export const Header = ({ handleScrollToSection }) => {
 
           <li
             className="Contact li"
-            onClick={() => handleScrollToSection("Contact")}
+            onClick={() => {
+              handleScrollToSection("Contact");
+            }}
           >
             <i
               class="fa-solid fa-address-card fa-sm"

@@ -65,16 +65,6 @@ function App() {
               <Route path="/pavers" element={<Pavers />} />
             </Routes>
           </Router>
-          {/* <FloatButton
-            shape="circle"
-            type="primary"
-            style={{
-              right: 30,
-            }}
-            onClick={handleCallButton}
-            icon={<PhoneTwoTone />}
-          /> */}
-
           <Modal
             title="Alert"
             open={showModal}
@@ -99,7 +89,9 @@ function App() {
               <img style={{ height: "35px" }} src={whatsappimage} alt="wapp" />
             </a>
           </div>
-          <Footer className="footer" />
+          <section id="Contact">
+            <Footer className="footer" />
+          </section>
         </div>
       )}
     </>

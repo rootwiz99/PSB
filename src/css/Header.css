@@ -98,7 +98,7 @@
     margin-left: 10px;
   }
   .li:hover{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 50px rgb(0, 0, 0);
   }
   .Home,
   .Projects,
@@ -113,8 +113,8 @@
     padding: 0%;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 
   

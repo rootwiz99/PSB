@@ -7,10 +7,21 @@ import Products from "../menu/Products";
 const Everything = () => {
   return (
     <div>
-      <Home />
-      <Projects />
-      <Products />
-      <About />
+      <section id="Home">
+        <Home />
+      </section>
+
+      <section id="Projects">
+        <Projects />
+      </section>
+
+      <section id="Products">
+        <Products />
+      </section>
+
+      <section id="About">
+        <About />
+      </section>
     </div>
   );
 };
