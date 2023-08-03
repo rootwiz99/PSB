@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/imageCardProject.css";
-import { Col } from "antd";
+import { Col, Image } from "antd";
 import { Card } from "antd";
 const { Meta } = Card;
 
@@ -11,7 +11,7 @@ const ImageCardProject = (props) => {
       
         className="productCard"
         cover={
-          <img
+          <Image
             className="proImg"
             style={{ height: "100%", padding: "30px" ,borderRadius:"50px" }}
             src={props.imageUrl}
