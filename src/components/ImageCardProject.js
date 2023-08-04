@@ -9,16 +9,17 @@ const ImageCardProject = (props) => {
     <Col xs={24} md={24} lg={12}>
       <Card
         className="projectCard"
+        style={{
+          padding: "20px",
+          width: "100%",
+        }}
         cover={
           <img
             className="proImg"
             style={{
               borderRadius: "20px",
-
+              height: "100%",
               width: "100%",
-             
-              height: "20rem",
-
               objectFit: "cover",
             }}
             src={props.imageUrl}
