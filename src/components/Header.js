@@ -32,6 +32,7 @@ export const Header = () => {
             color: "antiquewhite",
           }}
           className="logo"
+          onClick={() => handleScrollToSection("Home")}
         >
           PSB INDUSTRIES
         </h1>
