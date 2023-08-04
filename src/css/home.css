@@ -17,22 +17,31 @@ body {
 .mySwiperCarousal {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  
 }
 
 .mySwiperCarousal .swiper-slide {
   background-position: center;
   background-size: cover;
   width: auto;
-  height: auto;
+  height: auto; 
 }
 
 .mySwiperCarousal .swiper-slide img {
   display: block;
   width: 100%;
-  height: 90%;
+  height: 100%;
   object-fit: cover;
 }
+
+@media (min-width:1200px){
+  .mySwiperCarousal .swiper-slide img {
+    height: 80%;
+  }
+}
+
 .mySwiperSlider .swiper-slide img{
   display: block;
   width: 100%;
