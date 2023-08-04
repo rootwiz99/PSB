@@ -88,9 +88,12 @@ const Home = () => {
       </>
       <h2
         style={{
-          color: "antiquewhite",
+          
           textAlign: "center",
           fontSize: "30px",
+          color: "black",
+          backgroundColor: "antiquewhite",
+          padding:"5px",
         }}
       >
         RESEARCH AND DEVLOPMENTS

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/Header.css";
 import { Squash as Hamburger } from "hamburger-react";
+import image from "../images/path3.png";
 
 export const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -27,7 +28,7 @@ export const Header = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <h1
+        {/* <h1
           style={{
             color: "antiquewhite",
           }}
@@ -35,7 +36,8 @@ export const Header = () => {
           onClick={() => handleScrollToSection("Home")}
         >
           PSB INDUSTRIES
-        </h1>
+        </h1> */}
+        <img className="logoimg" src={image} alt="err" />
 
         {isOpen ? (
           <ul className={`nav-links-phone ${isOpen ? "open" : ""}`}>
@@ -45,17 +47,6 @@ export const Header = () => {
             >
               <i
                 className="fa-solid fa-house fa-sm"
-                style={{ color: "antiquewhite" }}
-              />
-              &nbsp;&nbsp;Home
-            </li>
-
-            <li
-              className="Projects li"
-              onClick={() => handleScrollToSection("Projects")}
-            >
-              <i
-                className="fa-solid fa-vihara fa-sm"
                 style={{ color: "antiquewhite" }}
               />
               &nbsp;&nbsp;Projects
@@ -97,10 +88,7 @@ export const Header = () => {
         ) : null}
         <ul className="nav-links-pc">
           <li className="Home li" onClick={() => handleScrollToSection("Home")}>
-            <i
-              className="fa-solid fa-house fa-sm"
-              style={{ color: "antiquewhite" }}
-            />
+            <i className="fa-solid fa-house fa-sm" style={{ color: "black" }} />
             &nbsp;&nbsp;Home
           </li>
 
@@ -110,7 +98,7 @@ export const Header = () => {
           >
             <i
               className="fa-solid fa-vihara fa-sm"
-              style={{ color: "antiquewhite" }}
+              style={{ color: "black" }}
             />
             &nbsp;&nbsp;Projects
           </li>
@@ -121,7 +109,7 @@ export const Header = () => {
           >
             <i
               className="fa-solid fa-square fa-sm"
-              style={{ color: "antiquewhite" }}
+              style={{ color: "black" }}
             />
             &nbsp;&nbsp;Products
           </li>
@@ -132,7 +120,7 @@ export const Header = () => {
           >
             <i
               className="fa-solid fa-circle-info fa-sm"
-              style={{ color: "antiquewhite" }}
+              style={{ color: "black" }}
             ></i>
             &nbsp;&nbsp;About
           </li>
@@ -145,7 +133,7 @@ export const Header = () => {
           >
             <i
               className="fa-solid fa-address-card fa-sm"
-              style={{ color: "antiquewhite" }}
+              style={{ color: "black" }}
             />
             &nbsp;&nbsp;Contact
           </li>

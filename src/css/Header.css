@@ -4,7 +4,10 @@
     display: inline-block;
     color: antiquewhite;
 }
-
+.logoimg{
+  height:70px;
+ 
+}
 
 
 .button{
@@ -25,7 +28,7 @@
   justify-content: space-around;
   align-items: center ;
   height: 75px;
-  background-color: #000000;
+  background-color: antiquewhite;
   top:0;
   left: 0;
   right: 0;
@@ -46,7 +49,7 @@
 .About,
 .Contact{
   text-decoration: none;
-  color: antiquewhite;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   padding:10px 20px;
   margin: 0 10px;
@@ -58,6 +61,11 @@
 @media (min-width: 1000px) {
   .button {
     display: none;
+  }
+  .logoimg{
+    height:70px;
+    margin-left: 10px;
+   
   }
 }
 @media (max-width: 1000px) {

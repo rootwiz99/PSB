@@ -1,8 +1,10 @@
 .projectHeading{
     text-align: center;
     align-items: center;
-    color: antiquewhite;
+    color: black;
+     background-color: antiquewhite;
     font-size: 30px;
+    margin: 5px;
 }
 
 
