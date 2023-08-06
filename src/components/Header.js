@@ -49,9 +49,18 @@ export const Header = () => {
                 className="fa-solid fa-house fa-sm"
                 style={{ color: "antiquewhite" }}
               />
+              &nbsp;&nbsp;Home
+            </li>
+            <li
+              className="Projects li"
+              onClick={() => handleScrollToSection("Projects")}
+            >
+              <i
+                className="fa-solid fa-vihara fa-sm"
+                style={{ color: "antiquewhite" }}
+              />
               &nbsp;&nbsp;Projects
             </li>
-
             <li
               className="Products li"
               onClick={() => handleScrollToSection("Products")}

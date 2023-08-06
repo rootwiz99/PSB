@@ -60,7 +60,9 @@
   cursor: pointer;
 
 }
-
+.li:hover{
+  color: antiquewhite;
+}
 
 @media (min-width: 1000px) {
   .button {
@@ -92,7 +94,7 @@
     position:fixed;
     left : 0;
     right: 0;
-    top: 75px;
+    top: 60px;
     margin:0%;
     padding: 0%;
     transition: opacity 0.5s ease, transform 0.5s ease;
