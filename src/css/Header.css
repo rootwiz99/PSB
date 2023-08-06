@@ -5,7 +5,10 @@
     color: antiquewhite;
 }
 .logoimg{
-  height:40px;
+  height:50px;
+
+  
+  
 }
 
 
@@ -72,8 +75,11 @@
 @media (max-width: 1000px) {
   .nav-links-pc {
     display:none;
+
     
-    
+  }
+  .navbar{
+    height: 60px;
   }
 
   .nav-links-phone{
