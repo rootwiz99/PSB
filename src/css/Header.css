@@ -5,7 +5,7 @@
     color: antiquewhite;
 }
 .logoimg{
-  height:30px;
+  height:40px;
 }
 
 
@@ -28,8 +28,8 @@
   justify-content: space-around;
   align-items: center ;
   height: 75px;
-  background-color: rgba(250, 235, 215, 0.587);
-  backdrop-filter: blur(10px);
+  background-color: #ffffff9e;
+ 
   top:0;
   left: 0;
   right: 0;
@@ -78,7 +78,7 @@
 
   .nav-links-phone{
     flex-direction: column;
-    background-color: #00000061;
+    background-color: #0000005e;
     backdrop-filter: blur(10px);
     justify-content: center;
     display: flex;
