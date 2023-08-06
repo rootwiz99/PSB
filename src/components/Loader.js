@@ -1,10 +1,11 @@
 import React from "react";
 import "../css/loader.css";
+import img from "../images/path3.png"
 
 const Loader = () => {
   return (
     <div className="loader">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecDq2M5mf_6qahwnHUVITsk5CZCQL8hjBdoTPQKY&s" alt="loading..." />
+      <img src={img} alt="loading..." />
     </div>
   );
 };

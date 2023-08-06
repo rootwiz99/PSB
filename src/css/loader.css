@@ -3,22 +3,32 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust this to fit your use case */
-    background-color: #00000049; /* Adjust the background color as needed */
+    background-color: #a8a8a8; /* Adjust the background color as needed */
   }
   
   .loader img {
     /* Customize the size and styling of the logo or animation */
-    width: 100px;
-    height: 100px;
-    animation:rotate 5s linear infinite;
+    width: 30vh;
+    height: 20vh;
+    
+    animation:scale 3s linear infinite;
+    background-color: #a8a8a8;
+    
   }
 
-  @keyframes rotate {
+  @keyframes scale {
 
-    from {
-        transform: rotate(0deg);
+    0% {
+        transform: scale(1) translate(0, 0);
     }
-    to {
-        transform :rotate(360deg);
+    50%{
+      transform: scale(1.5) translate(0, 0);
+    }
+    80%{
+      transform:translate(0,0)
+    }
+
+    100% {
+        transform :scale(99)translate(-25%, -25%);
     }
   }
