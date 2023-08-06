@@ -91,8 +91,8 @@ const Home = () => {
           
           textAlign: "center",
           fontSize: "30px",
-          color: "black",
-          backgroundColor: "antiquewhite",
+          color: "antiquewhite",
+          backgroundColor: "black",
           padding:"5px",
         }}
       >
