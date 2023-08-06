@@ -14,6 +14,10 @@ const Home = () => {
     <div style={{ marginTop: "75px" }}>
       <>
         <Swiper
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction:false,
+        }}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -27,7 +31,7 @@ const Home = () => {
             slideShadows: true,
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[Autoplay,EffectCoverflow, Pagination]}
           className="mySwiperCarousal"
           breakpoints={{
             800: {
