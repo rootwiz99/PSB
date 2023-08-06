@@ -5,9 +5,9 @@
     color: antiquewhite;
 }
 .logoimg{
-  height:70px;
- 
+  height:30px;
 }
+
 
 
 .button{
@@ -28,7 +28,8 @@
   justify-content: space-around;
   align-items: center ;
   height: 75px;
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.587);
+  backdrop-filter: blur(10px);
   top:0;
   left: 0;
   right: 0;
@@ -63,7 +64,7 @@
     display: none;
   }
   .logoimg{
-    height:70px;
+    height:60px;
     margin-left: 10px;
    
   }

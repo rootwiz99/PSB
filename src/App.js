@@ -56,7 +56,7 @@ function App() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div style={{ backgroundColor: "black" }} className="content">
+        <div style={{ backgroundColor: "BLACK" }} className="content">
           <Header className="header" />
 
           <Router>
