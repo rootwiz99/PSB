@@ -36,7 +36,7 @@ body {
   object-fit: cover;
 }
 
-@media (min-width:1200px){
+@media (min-width:1400px){
   .mySwiperCarousal .swiper-slide img {
     height: 80%;
   }

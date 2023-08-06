@@ -29,6 +29,11 @@ const Home = () => {
           pagination={true}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiperCarousal"
+          breakpoints={{
+            800: {
+              slidesPerView: 4,
+            },
+          }}
         >
           <SwiperSlide>
             <img
@@ -88,12 +93,11 @@ const Home = () => {
       </>
       <h2
         style={{
-          
           textAlign: "center",
           fontSize: "30px",
           color: "antiquewhite",
           backgroundColor: "black",
-          padding:"5px",
+          padding: "5px",
         }}
       >
         RESEARCH AND DEVLOPMENTS
@@ -103,8 +107,8 @@ const Home = () => {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
+            delay: 2000,
+            disableOnInteraction:false,
           }}
           pagination={{
             clickable: true,
