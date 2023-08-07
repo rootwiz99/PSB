@@ -6,8 +6,18 @@
 }
 .logoimg{
   height:50px;
-
-  
+  animation: move 1s ease;
+}
+@keyframes move {
+  0%{
+    transform: translateX(-1000px);
+  }
+  70%{
+    transform: translate(30px);
+  }
+  100%{
+    transform: translate(0px);
+  }
   
 }
 
@@ -97,19 +107,21 @@
     top: 60px;
     margin:0%;
     padding: 0%;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    z-index: 999;
+    
+    z-index: 99;
     opacity: 1;
-    transform: translateY(-100px);
+   
     height: 100vh;
     
-    
-    
-  
+
   }
   .nav-links-phone.open{
     opacity: 1;
-    transform: translateY(0px);
+    
+   
+  
+
+
   }
   .li{
     margin-left: 10px;

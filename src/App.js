@@ -85,7 +85,7 @@ function App() {
                 alt="call"
               />
             </div>
-            <a href="https://wa.me/7875743881?text=Hi! PSB Industries ">
+            <a className="whatsappButton" href="https://wa.me/7875743881?text=Hi! PSB Industries ">
               <img style={{ height: "35px" }} src={whatsappimage} alt="wapp" />
             </a>
           </div>

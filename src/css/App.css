@@ -15,3 +15,34 @@ body{
   flex-direction: column;
 
 }
+.callButton{
+  animation: mov1 2s ease;
+}
+.whatsappButton{
+  animation: mov2 3s ease;
+}
+@keyframes mov1 {
+  0%{
+    transform: translateX(2000px);
+  }
+  60%{
+    transform: translateX(-40px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+  
+}
+@keyframes mov2 {
+  0%{
+    transform: translateX(2000px);
+  }
+  60%{
+    transform: translateX(-30px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+  
+}
+
