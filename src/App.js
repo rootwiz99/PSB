@@ -17,7 +17,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
 
-  const loadingTime = 2800;
+  const loadingTime = 2500;
   const timer = setTimeout(() => {
     setLoading(false);
   }, loadingTime);
