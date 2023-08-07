@@ -11,7 +11,7 @@
     width: 30vh;
     height: 20vh;
     
-    animation:scale 3s linear infinite;
+    animation:scale 3s linear ;
     background-color: antiquewhite;
     
   }
