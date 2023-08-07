@@ -8,8 +8,8 @@
   
   .loader img {
     /* Customize the size and styling of the logo or animation */
-    width: 30vh;
-    height: 20vh;
+    width: 80px;
+    height: 50px;
     
     animation:scale 3s linear ;
     background-color: #9e9f9f;
