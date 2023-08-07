@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust this to fit your use case */
-    background-color: antiquewhite; /* Adjust the background color as needed */
+    background-color: #9e9f9f; /* Adjust the background color as needed */
   }
   
   .loader img {
@@ -12,7 +12,7 @@
     height: 20vh;
     
     animation:scale 3s linear ;
-    background-color: antiquewhite;
+    background-color: #9e9f9f;
     
   }
 
