@@ -27,7 +27,8 @@ const ImageCardProject = (props) => {
           />
         }
       >
-        <Meta className="productText" title="ji dnds sicnv" />
+        <h3 className="projecttxt">{props.imgtxt}</h3>
+        
       </Card>
     </Col>
   );

@@ -8,21 +8,8 @@ import "swiper/css/navigation";
 import "../css/home.css";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { Autoplay, Navigation } from "swiper/modules";
-import img1 from "../img db/carousal/CXFQ2035.JPG";
-import img2 from "../img db/carousal/IMG_0019.JPG";
-import img3 from "../img db/carousal/IMG_0025.JPG";
-import img4 from "../img db/carousal/IMG_0086.JPG";
-import img5 from "../img db/carousal/IMG_0154.JPG";
-import img6 from "../img db/carousal/IMG_0753.JPG";
-import img7 from "../img db/carousal/IMG_E0621.JPG";
-import img8 from "../img db/carousal/MQGL0426.JPG";
-import img9 from "../img db/carousal/IMG_E0769.JPG";
 
-import immg1 from "../img db/slider/IMG_0111.JPG";
-import immg2 from "../img db/slider/HPMP3298.JPG";
-import immg3 from "../img db/slider/IMG_0035.JPG";
-import immg4 from "../img db/slider/IMG_0682.WEBP";
-import immg5 from "../img db/slider/DOYI5717.JPG";
+
 
 const Home = () => {
   return (
@@ -83,7 +70,7 @@ const Home = () => {
             <img src="https://i.ibb.co/BcrTcWw/IMG-0025.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img9} alt="err" />
+            <img src="https://i.ibb.co/31M7JFY/IMG-E0769.jpg" alt="err" />
           </SwiperSlide>
         </Swiper>
       </>
@@ -117,10 +104,7 @@ const Home = () => {
         >
           <SwiperSlide>
             {" "}
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzQtzW8QCdXoOZ4SZHh2kpbcDiW2vaosG51OcGjMEfudkBuWgkibkmKdTLvUZCB9mtIs&usqp=CAU"
-              alt="err"
-            />
+            <img src="https://i.ibb.co/wd5HFDd/YIKC8003.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
