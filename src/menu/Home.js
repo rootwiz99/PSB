@@ -59,40 +59,28 @@ const Home = () => {
           }}
         >
           <SwiperSlide>
-            <img
-              src="https://images.unsplash.com/photo-1691867213044-615b22104643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
-              alt="err"
-            />
+            <img src="https://i.ibb.co/WF7tMXZ/IMG-0086.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://images.unsplash.com/photo-1691867213035-a287dc591b60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
-              alt="err"
-            />
+            <img src="https://i.ibb.co/wJ430N5/IMG-0753.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://images.unsplash.com/photo-1691867200870-319345e05136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
-              alt="err"
-            />
+            <img src="https://i.ibb.co/Q8RNLSd/IMG-E0621.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://images.unsplash.com/photo-1691867137251-3b9c4b52eec7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
-              alt="err"
-            />
+            <img src="https://i.ibb.co/31M7JFY/IMG-E0769.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img5} alt="err" />
+            <img src="https://i.ibb.co/D5ntkCB/MQGL0426.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img6} alt="err" />
+            <img src="https://i.ibb.co/6g7sSsN/CXFQ2035.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img7} alt="err" />
+            <img src="https://i.ibb.co/gm0ZSk2/IMG-0019.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img8} alt="err" />
+            <img src="https://i.ibb.co/BcrTcWw/IMG-0025.jpg" alt="err" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={img9} alt="err" />
