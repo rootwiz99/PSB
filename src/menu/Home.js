@@ -18,11 +18,21 @@ import img7 from "../img db/carousal/IMG_E0621.JPG";
 import img8 from "../img db/carousal/MQGL0426.JPG";
 import img9 from "../img db/carousal/IMG_E0769.JPG";
 
+import immg1 from "../img db/slider/IMG_0111.JPG";
+import immg2 from "../img db/slider/HPMP3298.JPG";
+import immg3 from "../img db/slider/IMG_0035.JPG";
+import immg4 from "../img db/slider/IMG_0682.WEBP";
+import immg5 from "../img db/slider/DOYI5717.JPG";
+
 const Home = () => {
   return (
     <div style={{ marginTop: "75px" }}>
       <>
         <Swiper
+          style={{
+            display: "grid",
+            placeItems: "center",
+          }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -49,16 +59,28 @@ const Home = () => {
           }}
         >
           <SwiperSlide>
-            <img src={img1} alt="err" />
+            <img
+              src="https://images.unsplash.com/photo-1691867213044-615b22104643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+              alt="err"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img2} alt="err" />
+            <img
+              src="https://images.unsplash.com/photo-1691867213035-a287dc591b60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+              alt="err"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img3} alt="err" />
+            <img
+              src="https://images.unsplash.com/photo-1691867200870-319345e05136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+              alt="err"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img4} alt="err" />
+            <img
+              src="https://images.unsplash.com/photo-1691867137251-3b9c4b52eec7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+              alt="err"
+            />
           </SwiperSlide>
           <SwiperSlide>
             <img src={img5} alt="err" />

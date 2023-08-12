@@ -33,7 +33,7 @@ body {
 .mySwiperCarousal .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: cover;
   
 
@@ -41,7 +41,7 @@ body {
 
 @media (min-width:1400px){
   .mySwiperCarousal .swiper-slide img {
-    
+    height: 30vmax;
     width: 100%;
   }
 }
